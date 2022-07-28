@@ -1,0 +1,41 @@
+html{
+    background:url(../new6.webp) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  }
+  #demo{
+    background: none;
+    color: white;
+    font-weight: 900;
+  }
+  body{
+    background: none;
+    color: white;
+    font-weight: 900;
+  }
+  .container{
+    text-align: center;
+    margin-top: 200px;
+    width: 450px;
+  }
+  input{
+    margin: 40px 0;
+  }
+  #weather{
+    margin-top: 15px;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  h1{
+    margin-bottom: 40px;
+  }

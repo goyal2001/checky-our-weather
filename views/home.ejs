@@ -1,0 +1,34 @@
+<%- include("header") -%>
+  <body>
+    
+    <div class="container">
+      <h1>What's the Weather?</h1>
+
+
+  <form class="form-group" action="/" method="get">
+    <label>Click ok if you want to search again</lable>
+    <button type="submit" class="btn btn-primary">OK</button>
+  </form>
+  
+<div id="weather">
+
+<div class="alert alert-success">
+  <p>
+  <label>Temperature : </label> <%= weatherData.main.temp %>
+  </p>
+  <p>
+  <label>The weather is currently : </label> <%= weatherData.weather[0].description %>
+</p>
+  <img src=<%= icon %>>
+
+
+</div>
+
+
+</div>
+
+    </div>
+    
+
+  </body>
+<%- include("footer") -%>
